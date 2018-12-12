@@ -1,0 +1,61 @@
+YEAR,TYPES OF WATCHES,ORDER METHOD,STORE LOCATION,UNITS SOLD,MANUFACTURING COST PER UNIT ($ USD),MANUFACTURING COST ($ USD),UNIT SALE PRICE ($ USD),REVENUE GENERATED ($ USD),GROSS PROFIT ($ USD)
+2015, Analog,Telephone,Glasgow,0,0,0,0,0,0
+2015, Analog,Sales visit,Glasgow,0,0,0,0,0,0
+2015, Analog,Web,Glasgow,762,30,22860,46.99,35802.04,12942.04
+2015, Digital,Telephone,Glasgow,0,0,0,0,0,0
+2015, Digital,Sales visit,Glasgow,0,0,0,0,0,0
+2015, Digital,Web,Glasgow,407,20,8140,40.36,16426.52,8286.52
+2015, Deluxe,Telephone,Glasgow,115,39,4485,75.84,8721.6,4236.6
+2015, Deluxe,Sales visit,Glasgow,0,0,0,0,0,0
+2015, Deluxe,Web,Glasgow,899,39,35061,75.84,68180.16,33119.16
+2015, Combination,Telephone,Glasgow,0,0,0,0,0,0
+2015, Combination,Sales visit,Glasgow,41,45,1845,94.09,3857.69,2012.69
+2015, Combination,Web,Glasgow,390,45,17550,94.30777778,36756.84,19206.84
+2015, Extreme,Telephone,Glasgow,24,116.19,2788.56,279.66,6711.84,3923.28
+2015, Extreme,Sales visit,Glasgow,26,116.19,3020.94,276.72,7194.72,4173.78
+2015, Extreme,Web,Glasgow,257,116.19,29860.83,277.896,71399.28,41538.45
+2016, Analog,Telephone,Glasgow,0,0,0,0,0,0
+2016, Analog,Sales visit,Glasgow,0,0,0,0,0,0
+2016, Analog,Web,Glasgow,4968,30,149040,47.60833333,236210.06,87170.06
+2016, Digital,Telephone,Glasgow,0,0,0,0,0,0
+2016, Digital,Sales visit,Glasgow,69,20,1380,40.78,2813.82,1433.82
+2016, Digital,Web,Glasgow,1420,20,28400,39.26681818,54687.9,26287.9
+2016, Deluxe,Telephone,Glasgow,0,0,0,0,0,0
+2016, Deluxe,Sales visit,Glasgow,212,39,8268,77.2,16360.46,8092.46
+2016, Deluxe,Web,Glasgow,1156,39,45084,77.27941176,89319.61,44235.61
+2016, Combination,Telephone,Glasgow,0,0,0,0,0,0
+2016, Combination,Sales visit,Glasgow,35,45,1575,96.05,3361.75,1786.75
+2016, Combination,Web,Glasgow,701,45,31545,95.99842105,67290.87,35745.87
+2016, Extreme,Telephone,Glasgow,0,0,0,0,0,0
+2016, Extreme,Sales visit,Glasgow,43,116.19,4996.17,287.51,12355.09,7358.92
+2016, Extreme,Web,Glasgow,240,116.19,27885.6,286.9329412,68846.46,40960.86
+2017, Analog,Telephone,Glasgow,691,30,20730,48.32,33340.96,12610.96
+2017, Analog,Sales visit,Glasgow,0,0,0,0,0,0
+2017, Analog,Web,Glasgow,5829,30,174870,48.03075,279739.28,104869.28
+2017, Digital,Telephone,Glasgow,148,20,2960,41.61,6158.28,3198.28
+2017, Digital,Sales visit,Glasgow,112,20,2240,41.61,4660.32,2420.32
+2017, Digital,Web,Glasgow,1202,20,24040,41.31705882,49666.62,25626.62
+2017, Deluxe,Telephone,Glasgow,240,39,9360,77.47,18592.8,9232.8
+2017, Deluxe,Sales visit,Glasgow,249,39,9711,78.01333333,19379.68,9668.68
+2017, Deluxe,Web,Glasgow,3113,39,121407,78.00780488,242079.82,120672.82
+2017, Combination,Telephone,Glasgow,32,45,1440,98.01,3136.32,1696.32
+2017, Combination,Sales visit,Glasgow,62,45,2790,98.01,6076.62,3286.62
+2017, Combination,Web,Glasgow,625,45,28125,96.70333333,60409.53,32284.53
+2017, Extreme,Telephone,Glasgow,0,0,0,0,0,0
+2017, Extreme,Sales visit,Glasgow,85,116.19,9876.15,289.668,24503.98,14627.83
+2017, Extreme,Web,Glasgow,224,116.19,26026.56,288.0376923,64507.09,38480.53
+2018, Analog,Telephone,Glasgow,263,30,7890,48.88,12855.44,4965.44
+2018, Analog,Sales visit,Glasgow,0,0,0,0,0,0
+2018, Analog,Web,Glasgow,4141,30,124230,48.30821429,199382.9,75152.9
+2018, Digital,Telephone,Glasgow,203,20,4060,41.195,8360.51,4300.51
+2018, Digital,Sales visit,Glasgow,0,0,0,0,0,0
+2018, Digital,Web,Glasgow,1344,20,26880,40.85545455,54887.17,28007.17
+2018, Deluxe,Telephone,Glasgow,117,39,4563,77.47,9063.99,4500.99
+2018, Deluxe,Sales visit,Glasgow,0,0,0,0,0,0
+2018, Deluxe,Web,Glasgow,3668,39,143052,77.47,284159.96,141107.96
+2018, Combination,Telephone,Glasgow,35,45,1575,98.01,3430.35,1855.35
+2018, Combination,Sales visit,Glasgow,0,0,0,0,0,0
+2018, Combination,Web,Glasgow,506,45,22770,97.25615385,49175.58,26405.58
+2018, Extreme,Telephone,Glasgow,0,0,0,0,0,0
+2018, Extreme,Sales visit,Glasgow,0,0,0,0,0,0
+2018, Extreme,Web,Glasgow,367,116.19,42641.73,282.1492308,103503.02,60861.29

@@ -1,0 +1,61 @@
+YEAR,TYPES OF WATCHES,ORDER METHOD,STORE LOCATION,UNITS SOLD,MANUFACTURING COST PER UNIT ($ USD),MANUFACTURING COST ($ USD),UNIT SALE PRICE ($ USD),REVENUE GENERATED ($ USD),GROSS PROFIT ($ USD)
+2015, Analog,Telephone,Madrid,0,0,0,0,0,0
+2015, Analog,Sales visit,Madrid,493,30,14790,47.116,23207.02,8417.02
+2015, Analog,Web,Madrid,1096,30,32880,47.018,51507.62,18627.62
+2015, Digital,Telephone,Madrid,0,0,0,0,0,0
+2015, Digital,Sales visit,Madrid,349,20,6980,40.36,14085.64,7105.64
+2015, Digital,Web,Madrid,390,20,7800,40.196,15662.09,7862.09
+2015, Deluxe,Telephone,Madrid,0,0,0,0,0,0
+2015, Deluxe,Sales visit,Madrid,1173,39,45747,75.90833333,89015.26,43268.26
+2015, Deluxe,Web,Madrid,745,39,29055,75.9425,56554.1,27499.1
+2015, Combination,Telephone,Madrid,0,0,0,0,0,0
+2015, Combination,Sales visit,Madrid,334,45,15030,94.335,31468.2,16438.2
+2015, Combination,Web,Madrid,330,45,14850,94.335,31095.76,16245.76
+2015, Extreme,Telephone,Madrid,0,0,0,0,0,0
+2015, Extreme,Sales visit,Madrid,332,116.19,38575.08,278.0753846,92229.1,53654.02
+2015, Extreme,Web,Madrid,120,116.19,13942.8,277.894,33306.11,19363.31
+2016, Analog,Telephone,Madrid,0,0,0,0,0,0
+2016, Analog,Sales visit,Madrid,1031,30,30930,48.047,49523.08,18593.08
+2016, Analog,Web,Madrid,2886,30,86580,47.935,138328.58,51748.58
+2016, Digital,Telephone,Madrid,0,0,0,0,0,0
+2016, Digital,Sales visit,Madrid,115,20,2300,33.29,3499.71,1199.71
+2016, Digital,Web,Madrid,884,20,17680,38.18615385,31938.2,14258.2
+2016, Deluxe,Telephone,Madrid,0,0,0,0,0,0
+2016, Deluxe,Sales visit,Madrid,121,39,4719,77.88,9423.07,4704.07
+2016, Deluxe,Web,Madrid,976,39,38064,78.00058824,76074.29,38010.29
+2016, Combination,Telephone,Madrid,0,0,0,0,0,0
+2016, Combination,Sales visit,Madrid,64,45,2880,96.05,6147.2,3267.2
+2016, Combination,Web,Madrid,383,45,17235,95.805,36690.13,19455.13
+2016, Extreme,Telephone,Madrid,0,0,0,0,0,0
+2016, Extreme,Sales visit,Madrid,59,116.19,6855.21,288.49,17020.91,10165.7
+2016, Extreme,Web,Madrid,170,116.19,19752.3,286.8078571,48704.77,28952.47
+2017, Analog,Telephone,Madrid,1227,30,36810,47.9,58773.3,21963.3
+2017, Analog,Sales visit,Madrid,0,0,0,0,0,0
+2017, Analog,Web,Madrid,3855,30,115650,48.32875,186130.38,70480.38
+2017, Digital,Telephone,Madrid,52,20,1040,40.78,2120.56,1080.56
+2017, Digital,Sales visit,Madrid,0,0,0,0,0,0
+2017, Digital,Web,Madrid,1201,20,24020,41.2365,49498.02,25478.02
+2017, Deluxe,Telephone,Madrid,673,39,26247,77.798,52316.89,26069.89
+2017, Deluxe,Sales visit,Madrid,0,0,0,0,0,0
+2017, Deluxe,Web,Madrid,2381,39,92859,78.58676471,186327.68,93468.68
+2017, Combination,Telephone,Madrid,55,45,2475,96.54,5311.17,2836.17
+2017, Combination,Sales visit,Madrid,0,0,0,0,0,0
+2017, Combination,Web,Madrid,604,45,27180,96.589,58319.96,31139.96
+2017, Extreme,Telephone,Madrid,57,116.19,6622.83,289.9625,16532.28,9909.45
+2017, Extreme,Sales visit,Madrid,0,0,0,0,0,0
+2017, Extreme,Web,Madrid,279,116.19,32417.01,287.5094444,80088.56,47671.55
+2018, Analog,Telephone,Madrid,0,0,0,0,0,0
+2018, Analog,Sales visit,Madrid,0,0,0,0,0,0
+2018, Analog,Web,Madrid,3162,30,94860,48.66242424,153312.98,58452.98
+2018, Digital,Telephone,Madrid,97,20,1940,40.78,3955.66,2015.66
+2018, Digital,Sales visit,Madrid,0,0,0,0,0,0
+2018, Digital,Web,Madrid,1014,20,20280,41.4025,41955.99,21675.99
+2018, Deluxe,Telephone,Madrid,139,39,5421,77.47,10768.33,5347.33
+2018, Deluxe,Sales visit,Madrid,0,0,0,0,0,0
+2018, Deluxe,Web,Madrid,2624,39,102336,77.6988,203828.1,101492.1
+2018, Combination,Telephone,Madrid,29,45,1305,98.01,2842.29,1537.29
+2018, Combination,Sales visit,Madrid,0,0,0,0,0,0
+2018, Combination,Web,Madrid,354,45,15930,97.10538462,34369.2,18439.2
+2018, Extreme,Telephone,Madrid,43,116.19,4996.17,285.55,12278.65,7282.48
+2018, Extreme,Sales visit,Madrid,45,116.19,5228.55,285.55,12849.75,7621.2
+2018, Extreme,Web,Madrid,195,116.19,22657.05,287.314,55999.77,33342.72
