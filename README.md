@@ -1,6 +1,6 @@
 # Generate Insights from multiple data sources using Watson Studio
 
-In this Code Pattern, we will Generate Insights by integrating data from multiple data sources like ``Db2 On Cloud,CSV File,Db2 Warehouse,etc`` using Watson Studio.Telling a story with data usually involves integrating data from multiple sources.Being able to combine data from multiple sources is essential when performing analysis. Here we worked with a few data sources namely ``Db2 On Cloud,CSV File and Db2 Warehouse``, but the power of watson studio is that this technique can be applied to other sources like MySQL databases, IBM Db2 Big SQL, Oracle database, PostgreSQL, Microsoft SQL Server, and many more, no matter the dataset size.In this pattern, we will have sales and marketing data of watches in three different cities on three differnt data sources namely Db2 On Cloud, a csv file and Db2 Warehouse.We will integrate data from all these sources and put it on Db2 warehouse.This integrated data will further be used to derive insights and will be visualized on embedded dashboard.
+In this Code Pattern, we will Generate Insights by integrating data from multiple data sources like ``Db2 On Cloud, CSV File, Db2 Warehouse, etc`` using Watson Studio. Telling a story with data usually involves integrating data from multiple sources. Being able to combine data from multiple sources is essential when performing analysis. Here we worked with a few data sources namely ``Db2 On Cloud, CSV File and Db2 Warehouse``, but the power of Watson Studio is that this technique can be applied to other sources like MySQL databases, IBM Db2 Big SQL, Oracle database, PostgreSQL, Microsoft SQL Server, and many more, no matter the dataset size. In this pattern, we will have sales and marketing data of watches in three different cities on three different data sources namely Db2 On Cloud, a csv file and Db2 Warehouse. We will integrate data from all these sources and put it on Db2 warehouse. This integrated data will further be used to derive insights and will be visualized on embedded dashboard.
 
 When the reader has completed this Code Pattern, they will understand how to:
 
@@ -15,9 +15,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 <!--Optionally, add flow steps based on the architecture diagram-->
 ## Flow
 
-1. Extract data from local files(csv file).
+1. Extract data from local files (csv file).
 2. Extract data from Db2 on cloud.
-3. Integrate the data in watson studio.
+3. Integrate the data in Watson Studio.
 4. Send the data to Db2 Warehouse.
 5. Visualize and derive insights using Embedded dashboard.
 
@@ -37,7 +37,7 @@ Please follow the below to setup and run this code pattern.
 4. [Add the data from local system(csv file)](#4-add-the-data-from-local-system(csv-file))
 5. [Add the Db2 connection](#5-add-the-db2-connection)
 6. [Add the Db2 Warehouse connection](#6-add-the-db2-warehouse-connection)
-7. [Update the notebook with credentials and Db2 Warehouse table name](#7-update-the-notebook-with-crediantials-and-db2-warehouse-table-name)
+7. [Update the notebook with credentials and Db2 Warehouse table name](#7-update-the-notebook-with-credentials-and-db2-warehouse-table-name)
 8. [Run the notebook](#8-run-the-notebook)
 
 ### 1. Clone the repo
@@ -73,7 +73,7 @@ Create the following services:
 
 ![](doc/source/images/create_notebook_from_url.png)
 
-## 4. Add the data from local system(csv file)
+## 4. Add the data from local system (csv file)
 
 #### Add the data to the notebook
 
@@ -88,7 +88,7 @@ and its `Files` tab.
 ## 5. Add the Db2 connection
 
 #### (i) First load some data on Db2.
-* Lanch your Db2 on cloud and click on `load`, as shown below.
+* Launch your Db2 on cloud and click on `load`, as shown below.
 
 ![](doc/source/images/Db21.png)
 
@@ -111,7 +111,7 @@ and its `Files` tab.
 
 ![](doc/source/images/Db26.png)
 
-* Make sure you note down the table name.In my case the table name is `TZF04421.MADRID`.
+* Make sure you note down the table name. In my case the table name is `TZF04421.MADRID`.
 
 #### (ii) Add the Db2 connection to your notebook.
 
@@ -119,15 +119,15 @@ and its `Files` tab.
 
 ![](doc/source/images/connection1.png)
 
-* It will redirect you to `new connection` page.Here choose `Db2 on Cloud`, as shown below.
+* It will redirect you to `new connection` page. Here choose `Db2 on Cloud`, as shown below.
 
 ![](doc/source/images/connection2.png)
 
-* Fill in your `username,password,hostname and Database`.Leave `use a secure gateway` unchecked.
+* Fill in your `username,password,hostname and Database`. Leave `use a secure gateway` unchecked.
 
 ![](doc/source/images/connection3.png)
 
-* `NOTE: You can get username,password,hostname and Database credentials by creating/clicking New Credentials from your Db2 service instance on cloud, as shown below`.
+* `NOTE: You can get username, password, hostname and Database credentials by creating/clicking New Credentials from your Db2 service instance on cloud, as shown below`.
 
 ![](doc/source/images/connection4.png)
 
@@ -136,7 +136,7 @@ and its `Files` tab.
 This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 #### (i) First load some data on Db2 Warehouse.
-* Lanch your Db2 on cloud and click on `load`.
+* Launch your Db2 on cloud and click on `load`.
 
 * Click on `browse files` and upload `Glasgow.csv`.
 
@@ -147,30 +147,30 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 * Now click on next and load the data.
 
-* Make sure you note down the table name.In my case the table name is `DASH5989.ALL`.
+* Make sure you note down the table name. In my case the table name is `DASH5989.ALL`.
 
 #### (ii) Add the Db2 connection to your notebook.
 
 * In your project, click `Add to project` and then select `Connection` tab.
 
-* It will redirect you to `new connection` page.Here choose `Db2 Warehouse`.
+* It will redirect you to `new connection` page. Here choose `Db2 Warehouse`.
 
-* Fill in your `username,password,hostname and Database`.Leave `use a secure gateway` unchecked.
+* Fill in your `username, password, hostname and Database`. Leave `use a secure gateway` unchecked.
 
-* `NOTE: You can get username,password,hostname and Database credentials by creating/clicking New Credentials from your Db2 Warehouse service instance on cloud`.
+* `NOTE: You can get username, password, hostname and Database credentials by creating/clicking New Credentials from your Db2 Warehouse service instance on cloud`.
 
 ## 7. Update the notebook with credentials and Db2 Warehouse table name. 
 
 #### Add the data in csv file, to the notebook
 
-* Select the cell below `2.2 Add the data from local system(csv file)` section in the notebook to update the credentials for Object Store.
+* Select the cell below `2.2 Add the data from local system (csv file)` section in the notebook to update the credentials for Object Store.
 * Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier.
 * Select `Insert to code` below `Manchester.csv`.
 * Click `Insert Pandas DataFrame` from the drop down menu.
 
 ![](doc/source/images/data1.png)
 
-* After inserting ,Make sure the you change the DataFrame name to `df1` ,as shown below.
+* After inserting, make sure you change the DataFrame name to `df1`, as shown below.
  `NOTE: This step is very important.`
 
 ![](doc/source/images/data2.png)
@@ -188,7 +188,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 ![](doc/source/images/data3.png)
 
-* After inserting ,Make sure the you change the DataFrame name to `df2` ,as shown below.
+* After inserting, make sure you change the DataFrame name to `df2`, as shown below.
  `NOTE: This step is very important.`
  
  ![](doc/source/images/data4.png)
@@ -199,7 +199,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 * Use `Find and Add Data` (look for the `10/01` icon) and its `Connections` tab. You should see the Db2 Warehouse name which we earlier connected. Make sure your active cell is the empty one created earlier.
 * Select `Insert to code` below `Db2 Warehouse`.
 * Click `Insert Credentials` from the drop down menu.
-* If the credentials are written as `credential_2` change them to `credentials_1`.Make sure that the credentials name is `credentials_1`.
+* If the credentials are written as `credential_2` change them to `credentials_1`. Make sure that the credentials name is `credentials_1`.
  `NOTE: This step is very important.`
  
 ![](doc/source/images/data5.png)
@@ -207,7 +207,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 #### Update the Db2 Warehouse table name
 
 * See the cell below `3. Send the data to Db2 Warehouse` section in the notebook to update the table name.
-* In my case the table name in Db2 Warehouse is  `DASH5989.ALL`.
+* In my case the table name in Db2 Warehouse is `DASH5989.ALL`.
 
 ![](doc/source/images/upload.png)
 
