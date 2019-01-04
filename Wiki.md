@@ -21,21 +21,32 @@ Generate Insights from multiple data sources using Watson Studio.
 ### Other URLs
 
 * Video URL
-* Demo URL
 
 # Summary
 
+Data and business analysis is a very valuable skill to have. It could mean the difference between a mediocre business and an exceptional one. For any company to do Data or Business analysis, having appropriate amount of data is the key.A company's data may have been stored on multiple sources. If we are able to aggregate all this related data which is stored on multiple sources and perform analysis, it would be very useful for the business, to interpret the data and to take right decision in accordance with the business environment. It could mean the difference between a mediocre business and an exceptional one.
 
 # Technologies
 
-* [Database Management](https://www.ibm.com/analytics/us/en/db2/): A database management system (DBMS) is system software for creating and managing databases.
+* [Analytics](https://en.wikipedia.org/wiki/Analytics): Uncover insights with data collection, organization, and analysis.
+
+* [Databases](https://www.ibm.com/analytics/us/en/db2/): Capture, store, analyze, and manage collections of data.
 
 * [Data Aggregation](https://en.wikipedia.org/wiki/Data_aggregation): Data aggregation is the compiling of information from databases with intent to prepare combined datasets for data processing.
 
-* [Data Visulaization](https://en.wikipedia.org/wiki/Data_visualization): Data Visulaization isthe representation of information in the form of a chart, diagram, picture, etc.
+* [Data Visulaization](https://en.wikipedia.org/wiki/Data_visualization): Data Visulaization is the representation of information in the form of a chart, diagram, picture, etc.
+
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)): An open-source interpreted high-level programming language for general-purpose programming.
 
 # Description
 
+In today's digital world, data analysis is extremely necessary due to the presence of online businesses.
+Such, businesses can have its consumer base completely stolen by a competitor with a better understanding of the consumers' needs,
+compared to a brick-and-mortar stall,which may still draw business from random passers-by.
+
+Data and business analysis is a very valuable skill to have. It could mean the difference between a mediocre business and an exceptional one. For any company to do Data or Business analysis, having appropriate amount of data is the key.
+
+A company's data may have been stored on multiple sources. In this code pattern we will consume/extract the data from multiple data sources using Watson Studio and load it into one data file/database. This data will further be used for visualization and analysis, and to derive insights about the company's performance.
 
 # Flow
 
@@ -76,6 +87,7 @@ Generate Insights from multiple data sources using Watson Studio.
 
 * 
 
+
 # Related links
 
 *
@@ -83,3 +95,10 @@ Generate Insights from multiple data sources using Watson Studio.
 
 # Announcement
 
+In this information age, data is one of the important factors that could redefine your business and ensure its growth.  Big Data is emerging as the next frontier for business development. You need some tools to collect the data from customers and interpret it effectively. Big Data and related technologies – from data warehousing to analytics and business intelligence  – are transforming the business world.
+
+Data aggregation and data visualization would be very useful for your business in order to interpret the data and to take right decision in accordance with the business environment. It will simplify the process of understanding the business insights and also help you to find new business opportunities by accessing, evaluating & interpreting the data.
+
+Data and business analysis is a very valuable skill to have. It could mean the difference between a mediocre business and an exceptional one. 
+
+A company's data may have been stored on multiple sources. In this code pattern we will consume/extract the data from multiple data sources using Watson Studio and load it into one data file/database. This data will further be used for visualization and analysis, and to derive insights about the company's performance.
