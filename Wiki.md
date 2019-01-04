@@ -34,7 +34,7 @@ Data and business analysis is a very valuable skill to have. It could mean the d
 
 * [Data Aggregation](https://en.wikipedia.org/wiki/Data_aggregation): Data aggregation is the compiling of information from databases with intent to prepare combined datasets for data processing.
 
-* [Data Visulaization](https://en.wikipedia.org/wiki/Data_visualization): Data Visulaization is the representation of information in the form of a chart, diagram, picture, etc.
+* [Data Visualization](https://en.wikipedia.org/wiki/Data_visualization): Data Visualization is the representation of information in the form of a chart, diagram, picture, etc.
 
 * [Python](https://en.wikipedia.org/wiki/Python_(programming_language)): An open-source interpreted high-level programming language for general-purpose programming.
 
@@ -66,7 +66,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 1. Download the code from GitHub
 2. Create Watson services with IBM Cloud
 3. Create the notebook
-4. Add the data from local system(csv file)
+4. Add the data from local system (csv file)
 5. Add the Db2 connection
 6. Add the Db2 Warehouse connection
 7. Update the notebook with credentials and Db2 Warehouse table name
@@ -95,7 +95,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 
 # Announcement
 
-In this information age, data is one of the important factors that could redefine your business and ensure its growth.  Big Data is emerging as the next frontier for business development. You need some tools to collect the data from customers and interpret it effectively. Big Data and related technologies – from data warehousing to analytics and business intelligence  – are transforming the business world.
+In this information age, data is one of the important factors that could redefine your business and ensure its growth. Big Data is emerging as the next frontier for business development. You need some tools to collect the data from customers and interpret it effectively. Big Data and related technologies – from data warehousing to analytics and business intelligence  – are transforming the business world.
 
 Data aggregation and data visualization would be very useful for your business in order to interpret the data and to take right decision in accordance with the business environment. It will simplify the process of understanding the business insights and also help you to find new business opportunities by accessing, evaluating & interpreting the data.
 
