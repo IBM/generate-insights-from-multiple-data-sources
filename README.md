@@ -25,7 +25,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 # Watch the Video
 
 ## Pre-requisites
-* [IBM Cloud account](https://www.ibm.com/cloud/) : Create an IBM Cloud account.
+* [IBM Cloud account](https://www.ibm.com/cloud/): Create an IBM Cloud account.
 
 # Steps
 
@@ -56,13 +56,13 @@ We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manches
 
 Create the following services:
 
-* [**Db2**](https://console.bluemix.net/catalog/services/db2) : Create an Db2 instance on your IBM cloud.
-* [**Db2 Warehouse**](https://console.bluemix.net/catalog/services/db2-warehouse) : Create an Db2 Warehouse instance on your IBM cloud.
-* [**Watson Studio**](https://console.bluemix.net/catalog/services/watson-studio) : Create a Watson Studio instance on your IBM cloud.
+* [**Db2**](https://console.bluemix.net/catalog/services/db2): Create an Db2 instance on your IBM cloud.
+* [**Db2 Warehouse**](https://console.bluemix.net/catalog/services/db2-warehouse): Create an Db2 Warehouse instance on your IBM cloud.
+* [**Watson Studio**](https://console.bluemix.net/catalog/services/watson-studio): Create a Watson Studio instance on your IBM cloud.
 
 ## 3. Create the notebook
 
-* In [Watson Studio](https://dataplatform.ibm.com), click on `Create notebook` to create a notebook.
+* In [Watson Studio](https://dataplatform.cloud.ibm.com/), click on `Create notebook` to create a notebook.
 * Create a project if necessary, provisioning an object storage service if required.
 * In the `Assets` tab, select the `Create notebook` option.
 * Select the `From URL` tab.
@@ -81,7 +81,7 @@ Create the following services:
 * When you clone this repo, you will find three `.csv` files in `data/datasets/`.
 * From your project page in Watson Studio, click `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab.
-* Click `browse` and navigate to `data/datasets/` and find `Manchester.csv` on your computer.
+* Click `Browse` and navigate to `data/datasets/` and find `Manchester.csv` on your computer.
 * Add the file to Object storage.
 
 ![](doc/source/images/add_file.png)
@@ -89,7 +89,7 @@ and its `Files` tab.
 ## 5. Add the Db2 connection
 
 #### (i) First load some data on Db2.
-* Launch your Db2 on cloud and click on `load`, as shown below.
+* Launch your Db2 on cloud and click on `Load`, as shown below.
 
 ![](doc/source/images/Db21.png)
 
@@ -124,7 +124,7 @@ and its `Files` tab.
 
 ![](doc/source/images/connection2.png)
 
-* Fill in your `username,password,hostname and Database`. Leave `use a secure gateway` unchecked.
+* Fill in your `username, password, hostname and Database`. Leave `use a secure gateway` unchecked.
 
 ![](doc/source/images/connection3.png)
 
@@ -137,9 +137,9 @@ and its `Files` tab.
 This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 #### (i) First load some data on Db2 Warehouse.
-* Launch your Db2 on cloud and click on `load`.
+* Launch your Db2 on cloud and click on `Load`.
 
-* Click on `browse files` and upload `Glasgow.csv`.
+* Click on `Browse files` and upload `Glasgow.csv`.
 
 * Choose the default schema and create a table `ALL`.
 
@@ -154,9 +154,9 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 * In your project, click `Add to project` and then select `Connection` tab.
 
-* It will redirect you to `new connection` page. Here choose `Db2 Warehouse`.
+* It will redirect you to `New connection` page. Here choose `Db2 Warehouse`.
 
-* Fill in your `username, password, hostname and Database`. Leave `use a secure gateway` unchecked.
+* Fill in your `username, password, hostname and Database`. Leave `Use a secure gateway` unchecked.
 
 * `NOTE: You can get username, password, hostname and Database credentials by creating/clicking New Credentials from your Db2 Warehouse service instance on cloud`.
 
@@ -266,14 +266,14 @@ The IBM Cognos Dashboard Embedded lets you, the developer, painlessly add end-to
 
 #### (i) Provisioning a Dashboard Embedded analytics service Instance to the Watson Studio Project
 
-* Click on "Add to Project" button to add the Embedded Dashboard Analytics service.
+* Click on `Add to Project` button to add the Embedded Dashboard Analytics service.
 
 ![](doc/source/images/EDA_Add_to_Project.png)
 
 
 #### (ii) Creating the Embedded Dashboard service and connections
 
-*  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the Dashboard Embedded service from the list. And click on Save button in the bottom.
+*  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the `Dashboard Embedded service` from the list. And click on `Save` button in the bottom.
 
 ![](doc/source/images/Select_CED_Service.png)
 
@@ -283,12 +283,12 @@ The IBM Cognos Dashboard Embedded lets you, the developer, painlessly add end-to
 ![](doc/source/images/Template_selection.png)
 
 
-* Click on selected sources '+' button to connect to the DB2 Warehouse.
+* Click on selected sources `+` button to connect to the DB2 Warehouse.
 
 ![](doc/source/images/Add_source_2_Dashboard.png)
 
 
-* Connect to the DB2 Warehouse databse(DASH5989). See below screenshot for details.
+* Connect to the DB2 Warehouse database (DASH5989). See below screenshot for details.
 
 ![](doc/source/images/Connection_Source.png)
 
@@ -304,7 +304,7 @@ The IBM Cognos Dashboard Embedded lets you, the developer, painlessly add end-to
 
 We will create 2 tabs (`Gross Profit and Revenue Analysis` & `Unit Sold Analysis`). 
 
-Under Gross Profit and Revenue Analysis tab, we would create 6 widgets.
+Under `Gross Profit and Revenue Analysis` tab, we would create 6 widgets.
 
  - Gross Profit analysis by year widget
  - Gross Profit analysis by Store Location widget
@@ -315,14 +315,14 @@ Under Gross Profit and Revenue Analysis tab, we would create 6 widgets.
 
 ##### Gross Profit analysis by year widget
 
-- To create this widget, firstly click on the visualizations icon and select and drag the World Cloud chart to the dashboard pane. See below screenshot for details.
+- To create this widget, firstly click on the visualizations icon and select and drag the `World Cloud` chart to the dashboard pane. See below screenshot for details.
 
 
 ![](doc/source/images/wc_chart1.png)
 
 ##### Gross Profit analysis by Store Location widget
 
-- Add `Store Location` and `Gross Profit` to the Word Cloud Chart. See screenshot for details.
+- Add `Store Location` and `Gross Profit` to the `Word Cloud` Chart. See screenshot for details.
 
 ![](doc/source/images/wc_add_data.png)
 
@@ -334,7 +334,7 @@ Under Gross Profit and Revenue Analysis tab, we would create 6 widgets.
 
 ##### Revenue Generated by Store Location
 
-- Add `Store Location` and `Revenue Generated` to the `Tree Map` chart`.  See screenshot for details.
+- Add `Store Location` and `Revenue Generated` to the `Tree Map` chart.  See screenshot for details.
 
 ![](doc/source/images/rev_gen1.png)
 
@@ -342,12 +342,12 @@ Under Gross Profit and Revenue Analysis tab, we would create 6 widgets.
 
 # Sample output
 
-- Gross Profit Anayasis sample output of the dashboard.
+- Gross Profit Analysis sample output of the dashboard.
 
 ![](doc/source/images/sample_output.png)
 
 
-- Unit Sold Anayasis sample output of the dashboard.
+- Unit Sold Analysis sample output of the dashboard.
 
 ![](doc/source/images/sample_output2.png)
 
