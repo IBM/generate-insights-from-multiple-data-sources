@@ -342,8 +342,14 @@ Under Gross Profit and Revenue Analysis tab, we would create 6 widgets.
 
 # Sample output
 
+- Gross Profit Anayasis sample output of the dashboard.
+
 ![](doc/source/images/sample_output.png)
 
+
+- Unit Sold Anayasis sample output of the dashboard.
+
+![](doc/source/images/sample_output2.png)
 
 
 # Troubleshooting
