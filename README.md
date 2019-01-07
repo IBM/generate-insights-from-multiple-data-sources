@@ -39,6 +39,7 @@ Please follow the below to setup and run this code pattern.
 6. [Add the Db2 Warehouse connection](#6-add-the-db2-warehouse-connection)
 7. [Update the notebook with credentials and Db2 Warehouse table name](#7-update-the-notebook-with-credentials-and-db2-warehouse-table-name)
 8. [Run the notebook](#8-run-the-notebook)
+9. [Visualize and Derive Insights using Embedded Dashboard Analytics](#9-visualize-and-derive-insights-using-embedded-dashboard-analytics)
 
 ### 1. Clone the repo
 
