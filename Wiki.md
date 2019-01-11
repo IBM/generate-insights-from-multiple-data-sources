@@ -24,7 +24,7 @@ Generate Insights from multiple data sources using Watson Studio.
 
 # Summary
 
-Data and business analysis is a very valuable skill to have. It could mean the difference between a mediocre business and an exceptional one. For any company to do Data or Business analysis, having appropriate amount of data is the key.A company's data may have been stored on multiple sources. If we are able to aggregate all this related data which is stored on multiple sources and perform analysis, it would be very useful for the business, to interpret the data and to take right decision in accordance with the business environment. It could mean the difference between a mediocre business and an exceptional one.
+Data and business analysis is a very valuable skill to have. It could mean the difference between a mediocre business and an exceptional one. For any company to do Data or Business analysis, having appropriate amount of data is the key.A company's data may have been stored on multiple sources. If we are able to aggregate all this related data which is stored on multiple sources and perform analysis, it would be very useful for the business, to interpret the data and to take right decision in accordance with the business environment. 
 
 # Technologies
 
@@ -61,7 +61,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 
 # Instructions
 
-> Find the detailed steps for this pattern in the [readme file](https://github.com/IBM/generate-insights-from-multiple-data-sources/blob/master/README.md). The steps will show you how to:
+> Find the detailed steps for this pattern in the [readme file](https://github.com/IBM/generate-insights-from-multiple-data-sources). The steps will show you how to:
 
 1. Download the code from GitHub
 2. Create Watson services with IBM Cloud
@@ -71,6 +71,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 6. Add the Db2 Warehouse connection
 7. Update the notebook with credentials and Db2 Warehouse table name
 8. Run the notebook
+9. Visualize and Derive Insights using Embedded Dashboard Analytics
 
 
 # Components and services
@@ -85,12 +86,12 @@ A company's data may have been stored on multiple sources. In this code pattern 
 
 # Related IBM Developer content
 
-* 
-
+* [What's New in IBM Db2 Warehouse, IBM Db2 Warehouse on Cloud, and IBM Db2 on Cloud](https://www-01.ibm.com/support/docview.wss?uid=swg21961758)
+* [An Overview of Cognos Analytics](https://www.ibm.com/communities/analytics/cognos-analytics-blog/video-an-overview-of-cognos-analytics/)
 
 # Related links
 
-*
+* 
 *
 
 # Announcement
