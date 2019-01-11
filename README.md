@@ -1,7 +1,9 @@
 # Generate Insights from multiple data sources using Watson Studio
 
-In this Code Pattern, we will Generate Insights by integrating data from multiple data sources like ``Db2 On Cloud, CSV File, Db2 Warehouse, etc`` using Watson Studio. Telling a story with data usually involves integrating data from multiple sources. Being able to combine data from multiple sources is essential when performing analysis. Here we worked with a few data sources namely ``Db2 On Cloud, CSV File and Db2 Warehouse``, but the power of Watson Studio is that this technique can be applied to other sources like MySQL databases, IBM Db2 Big SQL, Oracle database, PostgreSQL, Microsoft SQL Server, and many more, no matter the dataset size. In this pattern, we will have sales and marketing data of watches in three different cities on three different data sources namely Db2 On Cloud, a csv file and Db2 Warehouse. We will integrate data from all these sources and put it on Db2 warehouse. This integrated data will further be used to derive insights and will be visualized on embedded dashboard.
+In this Code Pattern, we will Generate Insights by integrating data from multiple data sources like ``Db2 On Cloud, CSV File, Db2 Warehouse, etc`` using Watson Studio. Telling a story with data usually involves integrating data from multiple sources. Being able to combine data from multiple sources is essential when performing analysis. Here we worked with a few data sources namely ``Db2 On Cloud, CSV File and Db2 Warehouse``, but the power of Watson Studio is that this technique can be applied to other sources like MySQL databases, IBM Db2 Big SQL, Oracle database, PostgreSQL, Microsoft SQL Server, and many more, no matter the dataset size.
 
+In this pattern, we will demonstrate the methodology with the following usecase. A watch manufacturing company ``XYZ`` manufactures five types of watchs, in three different branch locations (Manchester, Glasgow and Madrid) which uses different selling methods (Telephone, Visiting the Store and Online method). The sales data for each of these branches are stored in a different data source ( Db2 on Cloud, Db2 Warehouse and csv files ). We will integrate data from all these sources and put it on a single data source (Db2 warehouse). This integrated data will further be used to derive insights and will be visualized on an embedded dashboard. This will help us in interpreting, which product is performing the best and which branch is performing the best. 
+ 
 When the reader has completed this Code Pattern, they will understand how to:
 
 * Connect and get data from multiple data sources.
@@ -34,7 +36,7 @@ Please follow the below to setup and run this code pattern.
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
 3. [Create the notebook](#3-create-the-notebook)
-4. [Add the data from local system(csv file)](#4-add-the-data-from-local-system(csv-file))
+4. [Add the data from local system(csv file)](#4-add-the-data-from-local-system-(-csv-file-))
 5. [Add the Db2 connection](#5-add-the-db2-connection)
 6. [Add the Db2 Warehouse connection](#6-add-the-db2-warehouse-connection)
 7. [Update the notebook with credentials and Db2 Warehouse table name](#7-update-the-notebook-with-credentials-and-db2-warehouse-table-name)
@@ -43,11 +45,11 @@ Please follow the below to setup and run this code pattern.
 
 ### 1. Clone the repo
 
-Clone this [git repo](https://github.com/IBM/qradar-monitor-device-events.git).
+Clone this [git repo](https://github.com/IBM/generate-insights-from-multiple-data-sources.git).
 Else, in a terminal, run:
 
 ```
-$ git clone https://github.ibm.com/raravi86/ETL
+$ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources
 ```
 
 We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manchester.csv),[`data/datasets/Madrid.csv`](data/datasets/madrid.csv) and [`data/datasets/Glasgow.csv`](data/datasets/Glasgow.csv)
@@ -56,9 +58,9 @@ We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manches
 
 Create the following services:
 
-* [**Db2**](https://console.bluemix.net/catalog/services/db2): Create an Db2 instance on your IBM cloud.
-* [**Db2 Warehouse**](https://console.bluemix.net/catalog/services/db2-warehouse): Create an Db2 Warehouse instance on your IBM cloud.
-* [**Watson Studio**](https://console.bluemix.net/catalog/services/watson-studio): Create a Watson Studio instance on your IBM cloud.
+* [**Db2**](https://cloud.ibm.com/catalog/services/db2): Create an Db2 instance on your IBM cloud.
+* [**Db2 Warehouse**](https://cloud.ibm.com/catalog/services/db2-warehouse): Create an Db2 Warehouse instance on your IBM cloud.
+* [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio): Create a Watson Studio instance on your IBM cloud.
 
 ## 3. Create the notebook
 
@@ -68,7 +70,7 @@ Create the following services:
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.ibm.com/raravi86/ETL/blob/master/notebook/project.ipynb
+* Enter this Notebook URL: https://github.com/IBM/generate-insights-from-multiple-data-sources/blob/master/notebook/project.ipynb
 * Select the free Anaconda runtime.
 * Click the `Create` button.
 
@@ -132,7 +134,7 @@ and its `Files` tab.
 
 ![](doc/source/images/connection4.png)
 
-## 6.Add the Db2 Warehouse connection 
+## 6. Add the Db2 Warehouse connection 
 
 This methodology is similar to [step 5](#5-add-the-db2-connection).
 
