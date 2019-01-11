@@ -79,6 +79,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 * Watson Studio
 * IBM DB2 
 * IBM DB2 Warehouse
+* Embedded Cognos Dashboard
 
 # Runtimes
 
