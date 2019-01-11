@@ -340,7 +340,12 @@ Under `Gross Profit and Revenue Analysis` tab, we would create 6 widgets.
 
 ![](doc/source/images/rev_gen1.png)
 
-##### Similarly and painlessly add end-to-end data visualization capabilities to your application so your users can easily drag and drop to quickly find valuable insight and create visualizations on their own.
+#### (iv) Analyze the Dashboard
+
+With the help of the above basic steps to build the widgets(charts), one would be able to build desired charts to find valuable insights from multiple data sources.
+Similarly and painlessly add end-to-end data visualization capabilities to your application so your users can easily drag and drop to quickly find valuable insight and create visualizations on their own.
+
+
 
 # Sample output
 
