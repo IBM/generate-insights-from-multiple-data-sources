@@ -36,7 +36,7 @@ Please follow the below to setup and run this code pattern.
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
 3. [Create the notebook](#3-create-the-notebook)
-4. [Add the data from local system(csv file)](#4-add-the-data-from-local-system- (-csv-file-))
+4. [Add the data from local system(csv file)](#4-add-the-data-from-local-system-(-csv-file-))
 5. [Add the Db2 connection](#5-add-the-db2-connection)
 6. [Add the Db2 Warehouse connection](#6-add-the-db2-warehouse-connection)
 7. [Update the notebook with credentials and Db2 Warehouse table name](#7-update-the-notebook-with-credentials-and-db2-warehouse-table-name)
@@ -76,7 +76,7 @@ Create the following services:
 
 ![](doc/source/images/create_notebook_from_url.png)
 
-## 4. Add the data from local system (csv file)
+## 4. Add the data from local system(csv file)
 
 #### Add the data to the notebook
 
