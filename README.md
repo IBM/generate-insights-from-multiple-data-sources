@@ -349,7 +349,7 @@ Under `Gross Profit and Revenue Analysis` tab, we would create 6 widgets.
 
 - Copy the url and you can share to anyone whom you think is relevant. See below screenshot for details.
 
-[](doc/source/images/share_url_copy.png)
+![](doc/source/images/share_url_copy.png)
 
 
 
