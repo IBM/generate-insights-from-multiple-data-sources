@@ -88,7 +88,7 @@ A company's data may have been stored on multiple sources. In this code pattern 
 # Related IBM Developer content
 
 * [What's New in IBM Db2 Warehouse, IBM Db2 Warehouse on Cloud, and IBM Db2 on Cloud](https://www-01.ibm.com/support/docview.wss?uid=swg21961758)
-* [An Overview of Cognos Analytics](https://www.ibm.com/communities/analytics/cognos-analytics-blog/video-an-overview-of-cognos-analytics/)
+* [IBM Watson Embedded Cognos Dashboard](https://developer.ibm.com/data/cognos-dashboard/)
 
 # Related links
 
