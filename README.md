@@ -374,6 +374,7 @@ With the help of the above basic steps to build the widgets(charts), one would b
 
 
 # Troubleshooting
+
 Refer to [Troubleshooting](Troubleshooting.md).
 
 <!-- keep this -->
