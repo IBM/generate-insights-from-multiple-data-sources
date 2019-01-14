@@ -106,7 +106,7 @@ and its `Files` tab.
 * Disable `Detect data types` and make sure all the column names are same as in csv file ( refer to [Troubleshooting](Troubleshooting.md) for more imformation ) and make sure all the columns have same data types 
 `VARCHAR (256)`, as shown below.
 
-`NOTE: The above step is very important. Refer to [Troubleshooting](Troubleshooting.md) if there are any doubts.`
+`NOTE: The above step is very important. Refer to` [Troubleshooting](Troubleshooting.md) `if there are any doubts.`
 
 ![](doc/source/images/Db24.png)
 
