@@ -3,9 +3,9 @@ When we upload a `csv file` to Db2 or Db2 Warehouse or any other database, the c
 
 I'll give you two ways to tackle this issue: 
 
-(i) Manually change by disabling `Detect Data Types` while uploading.
+(i) Manually change by disabling `Detect data types` while uploading.
 
-In our case the we have to change the column names from,
+In our case, we have to change the column names from,
 
  ```  
  TYPES_OF_WATCHES to TYPES OF WATCHES
@@ -20,7 +20,7 @@ In our case the we have to change the column names from,
  
  ``` 
  
-(ii) Run the following in the `RUN SQL` ,
+(ii) Run the following commands in `RUN SQL` as shown below ,
       
 ![](doc/source/images/troubleshooting.png)
  
