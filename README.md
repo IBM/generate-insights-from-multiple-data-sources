@@ -103,10 +103,10 @@ and its `Files` tab.
 
 ![](doc/source/images/Db23.png)
 
-* Disable `Detect data types` and make sure all the column names are same as in csv file ( refer to [Troubleshooting](Troubleshooting.md) for more imformation ) and make sure all the columns have same data types 
+* Disable `Detect data types` and make sure all the column names are same as in csv file ( refer to [Troubleshooting](Troubleshooting.md) for more information ) and make sure all the columns have same data types 
 `VARCHAR (256)`, as shown below.
 
-`NOTE: The above step is very important. Refer to` [Troubleshooting](Troubleshooting.md) `if there are any doubts.`
+`NOTE: The above step is very important. Please refer to Troubleshooting if there are any doubts.`
 
 ![](doc/source/images/Db24.png)
 
@@ -374,7 +374,7 @@ With the help of the above basic steps to build the widgets(charts), one would b
 
 
 # Troubleshooting
-
+Refer to [Troubleshooting](Troubleshooting.md).
 
 <!-- keep this -->
 ## License
