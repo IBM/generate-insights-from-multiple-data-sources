@@ -1,5 +1,5 @@
 
-When we upload a csv to Db2 or Db2 Warehouse or any other database, the column names are which have spaces (Eg: First Name) is taken with an underscore (Eg: First_Name).
+When we upload a csv to Db2 or Db2 Warehouse or any other database, the column names which have spaces (Eg: First Name) are by default taken with an underscore (Eg: First_Name).
 
 I'll give you two ways to tackle this issue: 
 
@@ -36,4 +36,4 @@ In our case the we have to change the column names from,
  ALTER TABLE xxxxxxxx.XYZ RENAME COLUMN GROSS_PROFIT____USD_ TO "GROSS PROFIT ($ USD)";
  
  ``` 
- Replace xxxxxxxx.XYZ with your table name.
+ Replace `xxxxxxxx.XYZ` with your table name.
