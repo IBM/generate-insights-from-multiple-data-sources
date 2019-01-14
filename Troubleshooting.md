@@ -1,4 +1,6 @@
 
+# Troubleshooting
+
 When we upload a `csv file` to Db2 or Db2 Warehouse or any other database, the column names which have spaces (Eg: First Name) are by default taken with an underscore (Eg: First_Name).
 
 I'll give you two ways to tackle this issue: 
