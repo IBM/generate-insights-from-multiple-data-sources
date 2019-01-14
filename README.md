@@ -320,7 +320,7 @@ Under `Gross Profit and Revenue Analysis` tab, we would create 6 widgets.
 
 ##### Gross Profit analysis by year widget
 
-- To create this widget, firstly click on the visualizations icon and select and drag the `World Cloud` chart to the dashboard pane. See below screenshot for details.
+- To create this widget, firstly click on the visualizations icon and select and drag the `Word Cloud` chart to the dashboard pane. See below screenshot for details.
 
 
 ![](doc/source/images/wc_chart1.png)
