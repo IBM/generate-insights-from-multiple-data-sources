@@ -26,6 +26,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 <!--Optionally, update this section when the video is created-->
 # Watch the Video
 
+[![](http://img.youtube.com/vi/aA8wTWbmqSU/0.jpg)](https://youtu.be/aA8wTWbmqSU)]
+
 ## Pre-requisites
 * [IBM Cloud account](https://www.ibm.com/cloud/): Create an IBM Cloud account.
 
