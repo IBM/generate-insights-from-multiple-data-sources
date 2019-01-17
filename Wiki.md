@@ -20,7 +20,7 @@ Generate Insights from multiple data sources using Watson Studio.
 
 ### Other URLs
 
-* Video URL
+* [Video](https://youtu.be/aA8wTWbmqSU)
 
 # Summary
 
@@ -89,11 +89,6 @@ A company's data may have been stored on multiple sources. In this code pattern 
 
 * [What's New in IBM Db2 Warehouse, IBM Db2 Warehouse on Cloud, and IBM Db2 on Cloud](https://www-01.ibm.com/support/docview.wss?uid=swg21961758)
 * [IBM Watson Embedded Cognos Dashboard](https://developer.ibm.com/data/cognos-dashboard/)
-
-# Related links
-
-* 
-*
 
 # Announcement
 
