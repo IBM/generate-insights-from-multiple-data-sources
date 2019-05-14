@@ -194,7 +194,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 * Click `Insert Pandas DataFrame` from the drop down menu.
 * Select the schema in which you created the table.
 * Select `GLASGOW` table.
-* After inserting, make sure you change the DataFrame name to `df3`, as shown below.
+* After inserting, make sure you change the DataFrame name to `df3`.
  `NOTE: This step is very important.`
 
 #### Add the Db2 Warehouse credentials, to the notebook
