@@ -188,7 +188,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
  
  #### Similarly, Add the data in Db2 Warehouse, to the notebook
 
-* Select the cell below `2.3 Add the data from Db2 and Db2 Warehouse2` section in the notebook to update the connection credentials for Db2.
+* Select the cell below `2.3 Add the data from Db2 and Db2 Warehouse2` section in the notebook to update the connection credentials for Db2 Warehouse.
 * Use `Find and Add Data` (look for the `10/01` icon) and its `Connections` tab. You should see the Db2 Warehouse name which we earlier connected. Make sure your active cell is the empty one created earlier.
 * Select `Insert to code` below `Db2 Warehouse`.
 * Click `Insert Pandas DataFrame` from the drop down menu.
