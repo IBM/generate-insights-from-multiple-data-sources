@@ -51,7 +51,7 @@ Clone this [git repo](https://github.com/IBM/generate-insights-from-multiple-dat
 Else, in a terminal, run:
 
 ```
-$ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources
+$ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources.git
 ```
 
 We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manchester.csv),[`data/datasets/Madrid.csv`](data/datasets/madrid.csv) and [`data/datasets/Glasgow.csv`](data/datasets/Glasgow.csv)
@@ -75,8 +75,6 @@ Create the following services:
 * Enter this Notebook URL: https://github.com/IBM/generate-insights-from-multiple-data-sources/blob/master/notebook/project.ipynb
 * Select the free Anaconda runtime.
 * Click the `Create` button.
-
-![](doc/source/images/create_notebook_from_url.png)
 
 ## 4. Add the data from local system
 
@@ -105,16 +103,7 @@ and its `Files` tab.
 
 ![](doc/source/images/Db23.png)
 
-* Disable `Detect data types` and make sure all the column names are same as in csv file ( refer to [Troubleshooting](Troubleshooting.md) for more information ) and make sure all the columns have same data types 
-`VARCHAR (256)`, as shown below.
-
-`NOTE: The above step is very important. Please refer to Troubleshooting if there are any doubts.`
-
-![](doc/source/images/Db24.png)
-
-![](doc/source/images/Db25.png)
-
-* Now click on next and load the data. Once loaded you can view the table which will look like the image, shown below.
+* Now click on next and load the data.
 
 ![](doc/source/images/Db26.png)
 
@@ -147,10 +136,7 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 * Click on `Browse files` and upload `Glasgow.csv`.
 
-* Choose the default schema and create a table `ALL`.
-
-* Disable `Detect data types` and make sure all the column names are same as in csv file and make sure all the columns have same data types 
-`VARCHAR (256)`.
+* Choose the default schema and create a table `GLASGOW`.
 
 * Now click on next and load the data.
 
@@ -186,12 +172,12 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 #### Add the data in Db2 on Cloud, to the notebook
 
-* Select the cell below `2.3 Add the data from Db2` section in the notebook to update the connection credentials for Db2.
+* Select the cell below `2.3 Add the data from Db2 and Db2 Warehouse` section in the notebook to update the connection credentials for Db2.
 * Use `Find and Add Data` (look for the `10/01` icon) and its `Connections` tab. You should see the Db2 name which we earlier connected. Make sure your active cell is the empty one created earlier.
 * Select `Insert to code` below `Db2`.
 * Click `Insert Pandas DataFrame` from the drop down menu.
 * Select the schema in which you created the table.
-* Select `Madrid` table.
+* Select `MADRID` table.
 
 ![](doc/source/images/data3.png)
 
@@ -199,6 +185,17 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
  `NOTE: This step is very important.`
  
  ![](doc/source/images/data4.png)
+ 
+ #### Similarly, Add the data in Db2 Warehouse, to the notebook
+
+* Select the cell below `2.3 Add the data from Db2 and Db2 Warehouse2` section in the notebook to update the connection credentials for Db2.
+* Use `Find and Add Data` (look for the `10/01` icon) and its `Connections` tab. You should see the Db2 Warehouse name which we earlier connected. Make sure your active cell is the empty one created earlier.
+* Select `Insert to code` below `Db2 Warehouse`.
+* Click `Insert Pandas DataFrame` from the drop down menu.
+* Select the schema in which you created the table.
+* Select `GLASGOW` table.
+* After inserting, make sure you change the DataFrame name to `df3`, as shown below.
+ `NOTE: This step is very important.`
 
 #### Add the Db2 Warehouse credentials, to the notebook
 
@@ -210,14 +207,6 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
  `NOTE: This step is very important.`
  
 ![](doc/source/images/data5.png)
-
-#### Update the Db2 Warehouse table name
-
-* See the cell below `3. Send the data to Db2 Warehouse` section in the notebook to update the table name.
-* In my case the table name in Db2 Warehouse is `DASH5989.ALL`.
-
-![](doc/source/images/upload.png)
-
 
 ## 8. Run the notebook
 
@@ -246,6 +235,13 @@ There are several ways to execute the code cells in your notebook:
     time, or repeatedly at your specified interval.
 
 For this Notebook, you can simply `Run All` cells.
+
+#### Check whether the table is created.
+
+* A table will be created on Db2 Warehouse, after you run this python file 
+* In my case the table created in Db2 Warehouse is `DASH5989.ALL`.
+* Go to your Db2 warehouse and check for a file with table name `ALL` in default schema.
+* Now the data is ready for visualisation.
 
 <!--Optionally, include any troubleshooting tips (driver issues, etc)-->
 
