@@ -208,6 +208,10 @@ This methodology is similar to [step 5](#5-add-the-db2-connection).
  
 ![](doc/source/images/data5.png)
 
+* Make sure you change the schema name `DASHXXXXX` as shown below in step 3 from the notebook, with the username of your Db2 Warehouse(In capital letters).
+
+![](doc/source/images/Db2warehouseschema.png)
+
 ## 8. Run the notebook
 
 When a notebook is executed, what is actually happening is that each code cell in
