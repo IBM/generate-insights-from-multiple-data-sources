@@ -49,9 +49,7 @@ Please follow the below to setup and run this code pattern.
 
 ### 1. Clone the repo
 
-Clone this [git repo](https://github.com/IBM/generate-insights-from-multiple-data-sources.git).
-
-Else, in a terminal, run:
+Clone this [git repo](https://github.com/IBM/generate-insights-from-multiple-data-sources.git). Else, in a terminal, run:
 
 ```
 $ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources.git
