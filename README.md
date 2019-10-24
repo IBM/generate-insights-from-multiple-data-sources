@@ -52,12 +52,11 @@ Please follow the below to setup and run this code pattern.
 Clone this [git repo](https://github.com/IBM/generate-insights-from-multiple-data-sources.git).
 
 Else, in a terminal, run:
-```
+
 ```
 $ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources.git
-$ git clone https://github.com/IBM/generate-insights-from-multiple-data-sources.git
 ```
-```
+
 We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manchester.csv),[`data/datasets/Madrid.csv`](data/datasets/madrid.csv) and [`data/datasets/Glasgow.csv`](data/datasets/Glasgow.csv)
 
 ### 2. Create Watson services with IBM Cloud
