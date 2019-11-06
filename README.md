@@ -130,6 +130,15 @@ and its `Files` tab.
 
 ## 6. Add the Db2 Warehouse connection 
 
+```
+NOTE: Starting September 30, 2019, you will not be able to provision new instances of the Db2 Warehouse on Cloud Entry plan.
+
+Alternate for IBM Cloud Entry plan users:
+
+Create [Db2 on Cloud](https://cloud.ibm.com/catalog/services/db2) and follow the same steps below,
+
+```
+
 This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 #### (i) First load some data on Db2 Warehouse.
