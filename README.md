@@ -61,7 +61,15 @@ We’ll be using the file [`data/datasets/Manchester.csv`](data/datasets/Manches
 
 Create the following services:
 
-* [**Db2**](https://cloud.ibm.com/catalog/services/db2): Create an Db2 instance on your IBM cloud.
+* [**Db2 on Cloud**](https://cloud.ibm.com/catalog/services/db2): Create an Db2 instance on your IBM cloud.
+```
+NOTE: Starting September 30, 2019, you will not be able to provision new instances of the Db2 Warehouse on Cloud Entry plan.
+
+Alternate for IBM Cloud Entry plan users:
+
+* Use the Db2 on Cloud instace that you created just now, instead of Db2 Warehouse.
+
+```
 * [**Db2 Warehouse**](https://cloud.ibm.com/catalog/services/db2-warehouse): Create an Db2 Warehouse instance on your IBM cloud.
 * [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio): Create a Watson Studio instance on your IBM cloud.
 
@@ -135,14 +143,14 @@ NOTE: Starting September 30, 2019, you will not be able to provision new instanc
 
 Alternate for IBM Cloud Entry plan users:
 
-Create ```[Db2 on Cloud](https://cloud.ibm.com/catalog/services/db2)``` and follow the same steps below,
+* Use the same 'Db2 on Cloud' instace that you created and follow the steps below,
 
-```
+``` 
 
 This methodology is similar to [step 5](#5-add-the-db2-connection).
 
 #### (i) First load some data on Db2 Warehouse.
-* Launch your Db2 on cloud and click on `Load`.
+* Launch your Db2 and click on `Load`.
 
 * Click on `Browse files` and upload `Glasgow.csv`.
 
