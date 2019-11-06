@@ -135,7 +135,7 @@ NOTE: Starting September 30, 2019, you will not be able to provision new instanc
 
 Alternate for IBM Cloud Entry plan users:
 
-Create [Db2 on Cloud](https://cloud.ibm.com/catalog/services/db2) and follow the same steps below,
+Create ```[Db2 on Cloud](https://cloud.ibm.com/catalog/services/db2)``` and follow the same steps below,
 
 ```
 
